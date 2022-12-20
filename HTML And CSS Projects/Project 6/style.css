@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color:#2B2923;
+    margin: auto; 
+    overflow: hidden;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
+    margin-left: 280px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 300;
+    color: #908F87;
+}
+.logo{
+    
+    padding-left: 180px;
+    width: 23%;
+}
+.judge{
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+  padding-left: 250px;
+}
+button{
+    margin-right: 140px;
+    border: 1px solid #A09036;
+    color:#A09036;
+    background-color:#2B2923;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+    font-weight: 900;
+}
+h1{
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: left;
+    padding-left:250px ;
+    margin-top: 20px;
+    color: #F1F0EE;
+}
+p{
+position: relative;
+bottom: 120px;
+margin-left: 810px;
+font-size: 1.45rem;
+color: #E4E3E1;
+}

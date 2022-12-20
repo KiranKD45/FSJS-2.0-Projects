@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F9F5ED;
+} 
+
+nav{
+   padding: 20px;
+   height: 15vh;
+   margin-left: 10%;
+ 
+    
+}
+
+nav ul{
+    display: flex;
+    justify-items: center;
+    /* gap: 50px; */
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+
+/* hero section css */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10% ;
+}
+.leftmain{
+    width: 50%;
+}
+.leftmain h1{
+    font-size: 70px;
+}
+p{
+    margin: 10px 10px;
+}
+button{
+    border: none;
+    padding: 15px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.rightmain{
+    width: 50%;
+    height: 30%;
+}
+.img-logo{
+  width: 80%;
+}
+.girl1{
+    width: 35%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
+}
+.girl2{
+    width: 35%;
+    padding-bottom: 15px;
+}
+.girl3{
+    width: 73%;
+    
+}

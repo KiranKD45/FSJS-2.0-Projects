@@ -1,0 +1,89 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-size: 1537px 750px;
+    max-width: 1440px;
+    margin: auto; 
+    overflow: hidden;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 0 5%;
+    border: 1px solid black;
+    background-color: rgb(14, 4, 4);
+    width: 1600px;
+    margin-left: -100px;   
+    height: 70px;
+    
+}
+nav ul{
+    display: flex;
+    margin-left: -10px;
+}
+nav ul li{
+    list-style-type: none;
+    padding-right: 50px;  
+    font-family: Poppins;
+    font-weight: 500; 
+}
+.logo{
+    width: 70%;
+    padding-left: 100px;
+    margin-left: 20px;
+}
+
+.list-item{
+   padding-left: 40px; 
+}
+.button-small{
+    margin-left: 250px;
+    border: 1px solid purple;
+    border-radius: 05px;
+    height:30px;
+    width: 120px;
+    background-color:#BA0CC5;
+    color: #fff;
+    font-weight: 600;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+    font-family: Montserrat;
+    position: absolute;
+    top: 150px;
+    margin: 0 400px 600px 400px;
+    text-align: center;
+    
+}
+p{
+
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    position: absolute;
+    top:310px
+    
+
+}
+.button-large{
+    margin: 300px 300px 500px 250px;
+    border: 0.5px solid purple;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #BA0CC5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+}

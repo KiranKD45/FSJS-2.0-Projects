@@ -1,0 +1,161 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
+    margin-left: 180px;
+
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    color: #000000;
+    font-weight: 600;
+  font-size: 1.2rem;
+}
+.search-icon{
+  
+    margin-left: 265px;
+    margin-top: -5px;
+    position: fixed;
+    
+
+}
+.nav-button{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    height: 40px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+svg{
+    width: 25px;
+}
+img[alt="brand-logo"]{
+    width: 60%;
+    margin-left: 50px;
+
+}
+
+img[alt="square-pattern"]{
+  
+    margin-left: 220px;
+   margin-top: 220px;
+   width: 23%;
+  
+    
+}
+img[alt="person-hero-iamge"]{
+    position: fixed;
+    top: 150px;
+    width: 25%;
+    margin-left: 120px;
+   
+}
+.hero-container-right{
+    margin-left: 650px;
+    margin-top: -470px;
+}
+.hero-heading{
+    font-size: 3.7rem;
+}
+.hero-description{
+    margin-top: 40px;
+    margin-bottom: 150px;
+    font-size: 1rem;
+    height: 10px;
+    width: 600px;
+    text-align: center;
+    margin-left: 80px;
+    color: #848484;
+    font-family: sans-serif;
+}
+.button-email{
+    margin-left: 220px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #fff;
+}
+.button-join{
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.contact-heading{
+    margin-top: 80px;
+    margin-left: 318px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #545151;
+}
+.icons{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 30%;
+}
+img[alt="facebook-icon"]{
+    width: 13%;
+    margin-right: 10px;
+}
+img[alt="messenger-icon"]{
+    width: 13%;
+    margin-right: 10px;
+}
+img[alt="instagram-icon"]{
+    width: 13%;
+    margin-right: 10px;
+}
+img[alt="whatsapp-icon"]{
+    width: 13%;
+}
+img[alt="globe-pattern"]{
+    width: 3.9%;
+    position: relative;
+    top: -520px;
+    margin-left: 130px;
+}
+li:first-child{
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-decoration: underline
+
+}
+img[alt="start-pattern"]{
+    width: 3%;
+    position: relative;
+    left: 800px;
+    margin-bottom: 500px;
+    
+}
