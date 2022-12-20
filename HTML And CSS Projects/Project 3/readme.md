@@ -6,4 +6,4 @@ _This is almost same project like previous one In this project i learned about c
 
 Output-image:
 
-![Fashion hub](./output.png)
+![Fashion hub](output.png)
