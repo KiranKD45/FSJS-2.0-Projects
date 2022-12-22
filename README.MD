@@ -19,6 +19,7 @@
   4. [Project 04](./HTML%20And%20CSS%20Projects/Project%204/)
   5. [Project 05](./HTML%20And%20CSS%20Projects/Project%205/)
   6. [Project 06](./HTML%20And%20CSS%20Projects/Project%206/)
+  7. [Project 07](./HTML%20And%20CSS%20Projects/project%207/)
 
   **TAILWIND CSS PROJECT**
 
