@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: #151515;
+    color: #fff;
+    
+}
+.nav-bar{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0 10%;
+}
+ul{
+    display: flex;
+    margin-left: 225px;
+}
+li{
+    list-style: none;
+    margin-left:38px;
+}
+.nav-end{
+    display: flex;
+    margin-left: 188px;
+    
+}
+.laungauge{
+    margin-right: 50px;
+}
+.btn1txt{
+    margin-left: 19px;
+    margin-top: -25px;
+}
+.text-left{
+    padding: 6% 10%;
+}
+.line1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+ 
+}
+.span2{
+    color:#F637EC;
+    letter-spacing: 2px;
+}
+.para{
+   padding-top: 10px;
+   font-size: 1.5rem;
+}
+.button2{
+    margin: 5% 0;
+}
+.btn2txt{
+    margin-top: -25px;
+    margin-left: 20px ;
+}
+.btn2svg{
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 140px;
+    
+}
+
+
+.firstend{
+    display: flex;
+}
+.K42,.K12{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.plus{
+    font-size: 27px;
+    font-weight: 600;
+    color: #F637EC;
+}
+.b2,.b4{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+.vector{
+    margin-left: 70px;
+}
+.b3{
+   margin-left: 80px;
+}
+#first-img{
+    position: relative;
+    top: -625px;
+    left: 950px;
+   
+}
+.img-1{
+    width: 50%;
+}
+.section1{
+    height: 100vh;
+    background-image: url(./assets/Photos/backCards.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:  780px 50px ;
+}
+
+/* second page */
+.section2{
+    height: 127vh;
+}
+.logosp2{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 25vh;
+    background-color:#292929;
+}
+.sec-Main{
+    padding: 5% 12%;
+}
+.secH{
+    font-size: 4rem;
+    width: 500px;
+}
+.secC{
+    color: #F637EC;
+}
+.secpara{
+    padding-left: 10%;
+    word-spacing: 2px;
+    font-size: 1.5rem;
+    color: #C4C4C4;
+    position: relative;
+    left: 688px;
+    top: -275px;
+}
+.make-img{
+    height: 275px;
+    width: 275px;
+    border: 1px solid #CBCBCB;
+    margin-left: 195px;
+    margin-top: -100px;
+    background-color: #272727;
+}
+.dollar,.cloud,.lock{
+    margin-left: 55px;
+    margin-top: 22px; 
+}
+.doltext{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.makeimgsec{
+    height: 275px;
+    width: 275px;
+    border: 1px solid #F5F5F4;
+    margin-left: 563px;
+    margin-top: -300px;
+    background-color: #454140;
+}
+.sectxt,.threetxt{
+   text-align: center;
+   font-size: 23px;
+   margin-top: 25px;
+   font-weight: 600;
+}
+.makethree{
+    height: 275px;
+    width: 275px;
+    border: 1px solid #CBCBCB;
+    margin-left: 920px;
+    margin-top: -244px;
+    background-color: #272727;
+}
+/* third page */
+
+.section3{
+    height: 135vh;
+    background-color:#FCEFFB
+}
+
+.third-head{
+   color: #151515;
+}
+.third-line{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 4rem;
+}
+.third-pinkl{
+    color: #F637EC;
+}
+.third-para{
+    color: #3e3c3c;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    
+   
+}
+.vcards{
+    width: 65%;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+/* fourth page */
+.section4{
+    height: 100vh;
+}
+.fourthC{
+    text-align: center;
+    padding-top:5%;
+}
+.fourthl{
+font-size: 3rem;
+}
+.fourth-pink{
+    color: #F637EC;
+    
+}
+.fourthp{
+    margin-top: 20px;
+    font-size:1.2rem;
+    color: #C4C4C4;
+}
+.rat-container1{
+    margin-left: 18%;
+    margin-top: 50px;
+    height: 190px;
+    width: 380px;
+    border: 1px solid #C4C4C4;
+    background-color: #3e3c3c;
+    
+}
+.stars5{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.rat-para{
+    margin-top: 20px;
+  margin-left: 25px;
+}
+.rat-name
+{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-place{
+    margin-left: 25px;
+    color: #cac4c2;
+}
+.rat-container2{
+    margin-left: 18%;
+    margin-top: 50px;
+    height: 190px;
+    width: 380px;
+    border: 1px solid #C4C4C4;
+}
+.rat-para2{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-name2{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-place2{
+    margin-left: 25px;
+    color: #cac4c2;
+}
+.rat-container3{
+    height: 190px;
+    width: 380px;
+    border: 1px solid #C4C4C4;
+    margin-left: 700px;
+    margin-top: -430px;
+}
+.thirdC4{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.rat-para3{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-name3{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-place3{
+    margin-left: 25px;
+    color: #cac4c2;
+}
+.rat-container4{
+    height: 190px;
+    width: 380px;
+    border: 1px solid #C4C4C4;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.starss5{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.rat-para4{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-name4{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.rat-place4{
+    margin-left: 25px;
+    color: #cac4c2;
+}
+.ratings{
+    padding-left: 5%;
+}
+
+/* section5 */
+
+
+.section5{
+    height: 80vh;
+    background-image:url(./assets/Photos/Diamond-right.png),url(./assets/Photos/Diamond-left.png),url(./assets/Photos/Rectangle\ 6774.png),url(./assets/Photos/Rectangle\ 6773.png);
+    background-repeat: no-repeat;
+    background-position:left,right,center,center ;
+    background-size: 35%,35%,100%,100%;
+}
+.sec5-H{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 150px;
+}
+.sec5-black{
+    color: #151515;
+}
+.sec5-btn{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+/* last-nav */
+.THE-END{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0 13%;
+    
+}
+.END-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.END-txt{
+    margin-left: -25px;
+    font-weight: 700;
+}
+.END-svg{
+    margin-left: 19px;
+    margin-top: 2px;
+}
