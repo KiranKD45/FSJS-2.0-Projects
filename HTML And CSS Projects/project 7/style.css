@@ -24,6 +24,10 @@ li{
     list-style: none;
     margin-left:38px;
 }
+li:hover,.laungauge:hover{
+    color: #C4C4C4;
+    cursor: pointer;
+}
 .nav-end{
     display: flex;
     margin-left: 188px;
@@ -35,6 +39,10 @@ li{
 .btn1txt{
     margin-left: 19px;
     margin-top: -25px;
+}
+.btn1txt:hover,.btn2txt:hover,.END-txt:hover {
+    color:#55d6d6;
+    cursor: pointer;
 }
 .text-left{
     padding: 6% 10%;
