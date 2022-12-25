@@ -28,7 +28,7 @@
 }
 .nav-li{
     padding-left: 50px;
-    color: #DDDCDC;
+    color: #7B7B7B;
 }
 .nav-btn1{
     margin-left: 380px;
@@ -145,7 +145,7 @@
     position: relative;
     top: -60px;
     font-weight: 700;
-    background-color: orange;
+    background-color:#F4694C ;
     
 }
 .p2-img1-svg{
@@ -189,7 +189,7 @@
     position: relative;
     top: -60px;
     font-weight: 700;
-    background-color: orange;
+    background-color:#F4694C ;
     
 }
 .p2-img2-svg{
@@ -234,7 +234,7 @@
     position: relative;
     top: -60px;
     font-weight: 700;
-    background-color: orange;
+    background-color:#F4694C ;
     
 }
 .p2-img3-svg{
@@ -279,7 +279,7 @@
     position: relative;
     top: -60px;
     font-weight: 700;
-    background-color: orange;
+    background-color:#F4694C ;
     
 }
 .p2-img4-svg{
@@ -588,8 +588,8 @@ margin-bottom: 30px;
 .page6-btn{
     height: 50px;
     width: 150px;
-    background-color: orange;
-    color: white;
+    background-color:#F4694C ;
+    color: #fff;
     font-size: 15px;
     font-weight: 700;
 }
@@ -683,3 +683,30 @@ hr {
     height: 0.1px;
   }
   
+/* hover section */
+li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-btn1:hover{
+    background-color: #fff;
+    color: #F4694C;
+}
+.nav-btn2:hover,.btn1-p1:hover,.p2-img-btn1:hover,.p2-img-btn2:hover,.p2-img-btn3:hover,.p2-img-btn4:hover,.page6-btn:hover{
+    background-color: #fff;
+    color: #F4694C;
+}
+.btn2-p1:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #F4694C ;
+}
+.p3-btn1:hover,.p4-img1-btn:hover,.p4-img2-btn:hover,.p4-img3-btn:hover,.p4-img4-btn:hover{
+    background-color: #fff;
+    color: #F4694C;
+    border: 1px solid #F4694C ;
+}
+.p3-btn2:hover,.p4-btn-last1:hover,.p4-btn-last2:hover{
+    background-color: #5f57eb;
+    color: #fff;
+}
