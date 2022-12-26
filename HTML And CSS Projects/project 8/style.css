@@ -261,6 +261,7 @@ flex-direction: column;
 }
 .p3-black-btn{
     margin-top: 13px;
+    padding-left: 50px;
     height: 50px;
     width: 440px;
     border-radius: 25px;
@@ -268,7 +269,25 @@ flex-direction: column;
     background-color: #5F5F5F;
     color: #fff;
     font-size: 17px;
+ 
 }
+.p3-black-btn:hover{
+    background-color: #0C8BFD;
+    color: #111010;
+}
+.dot-making:hover{
+    background-color: #000;
+}
+.dot-making{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    left: -20px;
+    top: 15px;
+}
+
 /* 4th page */
 .section-4{
     height:120vh;
@@ -698,4 +717,3 @@ flex-direction: column;
     color: #fff;
     border: 1px solid #fff;
  }
-
