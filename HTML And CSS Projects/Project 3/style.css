@@ -153,9 +153,14 @@ li:first-child{
 
 }
 img[alt="start-pattern"]{
-    width: 3%;
     position: relative;
     left: 800px;
     margin-bottom: 500px;
-    
+    width: 4%;
+}
+.star:nth-child(3){
+ position: relative;
+ top: 450px;
+ right: 800px;
+
 }
