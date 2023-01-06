@@ -3,18 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
-
 }
 .section-1{
     height: 100vh;
-    background-color: #EBF5FF;
+    background-image: linear-gradient(#ffffff, #EAF5FF);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
 }
  nav{
     margin: 0% 12%;
     display: flex;
     padding-top: 2%;
-    
  }
 
  .nav-ul{
@@ -30,6 +28,10 @@
  .nav-li{
  margin-right: 80px;
  }
+ .nav-li:hover{
+    color: #9595AC;
+    cursor: pointer;
+ }
  .nav-btn{
     height: 50px;
     width: 180px;
@@ -38,6 +40,10 @@
     color: #8850D8;
     font-weight: 700;
     font-size: 0.9rem;
+}
+.nav-btn:hover{
+    background-color:#722DD1;
+    color: #fff;
 }
 .page1-btn{
     margin-left: 12%;
@@ -84,6 +90,11 @@
     font-weight: 500;
     font-size: 0.9rem;
 }
+.text-btn1:hover{
+    background-color: #fff;
+    color: #722DD1;
+    border: 1px solid #722DD1;
+}
 .text-btn2{
     height: 50px;
     width: 150px;
@@ -93,6 +104,10 @@
    border: none;
    font-weight: 700;
    font-size: 0.9rem;
+}
+.text-btn2:hover{
+    background-color: #722DD1;
+    color: #fff;
 }
 .image1{
     margin-left: 800px;
@@ -120,6 +135,9 @@
     margin-top: 20px;
     background-color: #F7F0FF;
     border: none;
+}
+.page2-btn:hover,.page3-btn:hover,.page4-btn:hover{
+    background-color: #81d68c;
 }
 .page2-head{
     font-size: 2.5rem;
@@ -257,12 +275,15 @@
 }
 /* page5 */
 .section5{
-    height: 50vh;
+    height: 90vh;
+    background-image: linear-gradient(#FAF8FF, #F3F8FF);
+    clip-path: polygon(0 23%, 100% 1%, 100% 73%, 0% 100%);
+    margin-top: -150px;
 }
 .main-div{
     text-align: center;
     position: relative;
-    top: -100px;
+    top: 180px;
 }
 .para1{
     margin-bottom: 30px;
@@ -352,6 +373,11 @@ h6{
     font-size: 0.9rem;
     border: none;
  }
+ .trail-btn:hover{
+    background-color: #fff;
+    color: #722DD1;
+    border: 1px solid #722ED1;
+ }
  .input1{
     height: 45px;
     width: 320px;
@@ -395,6 +421,10 @@ h6{
  }
  .sign-span{
     color: #722DD1;
+ }
+ .sign-span:hover{
+    cursor: pointer;
+    text-decoration: underline;
  }
  ::placeholder{
     color: #9C9CB1;
@@ -508,5 +538,8 @@ h6{
     background-size: 25px;
     box-shadow: 1px 3px 5px 0px #d2d7dd;
     border: none;
-    
+ }
+ .col-1-li:hover, .col-2-li:hover, .col-3-li:hover, .col-4-li:hover{
+  color: #131313;
+  cursor: pointer;
  }
