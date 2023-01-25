@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Studio Code</title>
+    <script
+      src="https://kit.fontawesome.com/4b9b46ca71.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              grey: "#2e2d2d",
+              lgrey: "#3a3939",
+              dgrey: "#28292a",
+              blue: "#224ce7",
+              textColor: "#6a6767",
+              paraColor: "#525050",
+            },
+          },
+        },
+      };
+    </script> 
+  </head>
+  <body>
+    <div class="relative">
+    <h3 class="text-center text-xl py-4 font-semibold top-0 right-0 left-0 fixed h-14 bg-dgrey pb-6 text-white mx-[auto]">For educational purpose only</h3>
+    </div>
+    <div class="relative">
+    <div class="bg-grey lg:flex xl:flex xl:pl-40 lg:pl-0 h-14 pt-2 lg:h-16 xl:h-20 fixed top-14 right-0 left-0">
+      <div class="flex">
+        <div>
+          <img
+            src="./assets/4f0ac3e0-visual_studio_code.png"
+            class="h-10 lg:ml-8 xl:my-4 lg:pt-2"
+            alt=""
+          />
+        </div>
+        <h1 class="text-white ml-2 xl:text-2xl lg:pt-4 xl:pt-4 lg:text-sm lg:invisible xl:visible">Visual Studio Code</h1>
+        <img src="./assets/download.png" class="h-10 rounded-full ml-20 lg:ml-0 md:ml-96 lg:invisible xl:invisible md:visible lg:ml-0 xl:ml-0" alt="" />
+      </div>
+      <!-- navbar -->
+      <div>
+        <ul class="flex text-slate-300 ml-8 xl:text-xl lg:text-sm invisible lg:visible xl:visible md:invisible lg:my-4 xl:my-4">
+          <li class="ml-8">Docs</li>
+          <li class="ml-8">Update</li>
+          <li class="ml-8">Blogs</li>
+          <li class="ml-8">API</li>
+          <li class="ml-8">Extensions</li>
+          <li class="ml-8">FAQ</li>
+          <li class="ml-8">Learn</li>
+        </ul>
+      </div>
+      <!-- button -->
+      <div class="flex xl:ml-28 lg:ml-1 invisible xl:visible">
+        <div class="flex lg:ml-10 invisible xl:visible lg:object-none">
+          <img src="./assets/search-icon.jpg" class="" alt="">
+          <input class="text-slate-100 bg-lgrey py-6 text-xl px-2" type="text" placeholder="Search Docs">
+        </div>
+        <div class="flex bg-blue px-8 invisible xl:visible lg:visible">
+          <img src="./assets/download-icon.jpg" class="pr-3 my-2 lg:mr-6" alt="">
+          <button class="text-white text-xl font-bold">Download</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <p class="pt-32 text-center bg-dgrey text-white text-xs pb-3 md:text-xl xl:pt-40"><span class="text-blue hover:underline">Version 1.73</span>is now available! Read about the new features and fixes from October.</p>
+    <div class="bg-lgrey lg:flex xl:flex">
+      <div class="py-10 lg:w-[500px] lg:pt-20 xl:w-[800px] xl:py-32">
+        <h1 class="text-white text-center text-4xl mb-3 xl:mb-6 xl:text-5xl">Code editing. <br><span class="text-bold">Redefined.</span></h1>
+        <p class="text-slate-300 text-center xl:text-2xl">Free. Built on open source. Runs everywhere.</p>
+        <button class="bg-blue text-white py-2 px-10 font-bold ml-8 mb-6 md:ml-60 lg:ml-16 xl:ml-[220px] xl:mb-8 xl:text-xl">Download for Windows<br><span class="font-semibold">Stable Build</span> </button>
+        <button class="bg-blue py-4 pt-4 pb-3 relative top-6 xl:py-5 xl:px-2"><img src="./assets/downwardsArrow.png" alt=""></button><br>
+        <span class="bg-dgrey py-2 px-6 rounded-lg text-sm mx-8 md:ml-60 lg:ml-16 xl:ml-[200px] xl:text-md xl:text-lg"><a href="#" class="text-blue hover:underline">Web,</a><a href="#" class="text-blue hover:underline"> Insiders editions,</a><span class="text-white"> or </span> <a href="#" class="text-blue hover:underline">other platforms</a></span>
+        <p class="text-xs text-white text-slate-300 text-center mt-4 xl:text-lg xl:mt-8">By using VS Code, you agree to its<br><span class="text-blue hover:underline">license and privacy statement.</span></p>
+      </div>
+      <div>
+        <img src="./assets/codeTemplate.png" class="h-60 mx-14 pb-10 md:h-[560px] md:w-[600px] lg:pt-10 w-[300px] xl:w-[1000px] xl:h-[800px] xl:pb-10 lg:w-[400px]" alt="">
+      </div>
+    </div>
+    <!-- intellisence -->
+    <div class="xl:mx-40 lg:mx-20 md:flex lg:flex xl:flex grid grid-cols-2 ml-4">
+      <div class="lg:mx-14 xl:mx-32 my-6 md:mx-6">
+        <img src="./assets/intellisence.png" class="ml-6 xl:h-20 h-14" alt="">
+        <p class="xl:text-2xl text-lg mt-2 mr-8">IntelliSense</p>
+      </div>
+      <div class="lg:mx-14 xl:mx-32 my-6 md:mx-6">
+        <img src="./assets/run&debug.png" class="ml-10 xl:h-20 h-14" alt="">
+        <p class="xl:text-2xl text-lg mt-2">Run and Debug</p>
+      </div>
+      <div class="lg:mx-14 xl:mx-32 my-6 md:mx-6">
+        <img src="./assets/gitinbuild.png" class="ml-8 xl:h-20 h-14" alt="">
+        <p class="xl:text-2xl text-lg mt-2">Built-in Git</p>
+      </div>
+      <div class="lg:mx-14 xl:mx-32 my-6 md:mx-6">
+        <img src="./assets/extensions.png" class="ml-4 xl:h-20 h-14" alt="">
+        <p class="xl:text-2xl text-lg mt-2">Extensions</p>
+      </div>
+    </div>
+
+    <!-- stories -->
+    <div class="xl:flex lg:flex xl:px-60  py-28 bg-slate-100">
+      <div class=""><img src="./assets/larrow.png" class="xl:h-14 xl:w-32 h-6 xl:mt-20 ml-10 xl:ml-0 lg:ml-6 lg:mt-20" alt=""></div>
+      <div class="flex mb-10 mx-20 xl:mx-0 lg:mx-10">
+        <img src="./assets/hall-of-fame-3.png" class="xl:w-24 xl:h-24 h-14 w-14 rounded-full" alt="">
+        <div class="ml-4">
+          <h3 class="font-bold xl:text-lg text-sm">Pavithra Kodmak <span class="font-normal ml-4 text-lgrey">@PKodmak</span></h3>
+          <p class="text-textColor xl:text-[24px] lg:text-[16px] ">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+        </div>
+      </div>
+      <div class="flex mb-10 mx-20 xl:mx-0 lg:mx-10">
+        <img src="./assets/hall-of-fame-2.png" class="xl:w-24 xl:h-24 h-14 w-14 rounded-full" alt="">
+        <div class="ml-4">
+          <h3 class="font-bold xl:text-lg text-sm">Darren<span class="font-normal ml-4 text-lgrey">@MrDarrenV</span></h3>
+          <p class="text-textColor xl:text-[24px] lg:text-[16px]">I love @code The built-in markdown previewer is awesome and the plugin system allows me to use GitLens, which makes my workflow so much easier.
+            Previous</p>
+        </div>
+      </div>
+      <div class="flex mx-20 xl:mx-0 lg:mx-10">
+        <img src="./assets/hall-of-fame-1.png" class="xl:w-24 xl:h-24 h-14 w-14 rounded-full" alt="">
+        <div class="ml-4">
+          <h3 class="font-bold xl:text-lg text-sm">Una kravets <span class="font-normal ml-4 text-lgrey">@Una</span></h3>
+          <p class="text-textColor xl:text-[24px] lg:text-[16px]">I was a vim fan, but then discovered VS Code's Vim plugin, which lets me add in my vim keybindings. I can maintain my coding style without having to compromise on speed.</p>
+        </div>
+      </div>
+      <div class=""><img src="./assets/rarrow.png" class="lg:mr-6 xl:h-14 xl:w-32 h-6 mt-20 absolute top-[165%] left-[80%] xl:static md:absolute md:top-[126%] lg:static" alt=""></div>
+    </div>
+
+    <!--another block of code  -->
+    <div class="xl:flex xl:py-32 py-20 md:flex">
+      <div class="xl:mx-40 mx-10"><img src="./assets/home-intellisense.svg" class="xl:h-[300px] md:h-[200px] xl:pl-32" alt=""></div>
+      <div class="xl:w-[800px] md:w-[500px]">
+        <h3 class="text-xl xl:text-5xl font-light mb-16 text-paraColor text-center">Meet IntelliSense.</h3>
+        <p class="xl:text-2xl text-sm text-paraColor leading-10 px-2 text-center lg:text-left xl:leading-loose">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+      </div>
+    </div>
+    <div class="xl:flex bg-slate-100 xl:py-32 py-20 md:flex">
+      <div class="xl:w-[800px] md:w-[500px] xl:ml-60">
+        <h3 class="xl:text-4xl text-lg font-light mb-16 text-paraColor text-center px-2">Print statement debugging is a thing of the past.</h3>
+        <p class="xl:text-2xl text-sm text-paraColor leading-loose text-center px-2 lg:text-left lg:ml-10 xl:leading-loose">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+      </div>
+      <div class="xl:mx-40 mx-10"><img src="./assets/home-debug.svg" class="xl:h-[300px] md:h-[200px] mt-10" alt=""></div>
+    </div>
+    <div class="xl:flex xl:py-32 py-20 md:flex">
+      <div class="xl:mx-40 mx-10"><img src="./assets/home-git.svg" class="xl:h-[300px] md:h-[200px] x:pl-32" alt=""></div>
+      <div class="xl:w-[800px] md:w-[500px]">
+        <h3 class="xl:text-5xl text-lg text-center font-light mb-16 text-paraColor">Git commands built-in.</h3>
+        <p class="xl:text-2xl text-sm text-center text-paraColor leading-loose px-2 lg:text-left xl:leading-loose">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+      </div>
+    </div>
+    <div class="xl:flex bg-slate-100 xl:py-32 py-20 md:flex">
+      <div class="xl:w-[800px] md:w-[500px] xl:ml-60">
+        <h3 class="xl:text-4xl text-lg text-center font-light mb-16 text-paraColor" >Extensible and customizable.</h3>
+        <p class="xl:text-2xl text-sm text-center px-2 text-paraColor leading-loose lg:text-left lg:ml-10 xl:leading-loose">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <span class="text-blue hover:underline">Learn more about extensions.</span></p>
+      </div>
+      <div class="xl:mx-40 mx-10 mt-10"><img src="./assets/Hundreds-of-Extensions.png" class="xl:h-[300px] md:h-[200px]" alt=""></div>
+    </div>
+    <div class="xl:flex xl:py-32 py-20 md:flex">
+      <div class="xl:mx-40 mx-10"><img src="./assets/home-azure.svg" class="xl:h-[300px] md:h-[200px] xl:pl-32" alt=""></div>
+      <div class="xl:w-[800px] md:w-[500px]">
+        <h3 class="xl:text-5xl text-lg text-center font-light mb-16 text-paraColor">Deploy with confidence and ease</h3>
+        <p class="xl:text-2xl text-sm text-center px-2 text-paraColor leading-loose lg:text-left xl:leading-loose" >With<span class="text-blue hover:underline"> Microsoft Azure</span> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <span class="text-blue hover:underline">all from within VS Code</span></p>
+      </div>
+    </div>
+    <!-- technology -->
+    <div class="bg-slate-100 xl:py-28 py-20">
+      <h2 class="text-center xl:text-5xl text-3xl font-thin xl:mb-20 mb-10">VS Code for</h2>
+      <div class="grid xl:grid-cols-6 md:grid-cols-4 xl:mx-60 md:mx-10 mb-10 ml-32">
+        <div class="flex">
+          <img src="./assets/javascript.svg" class="h-[40px]" alt="">
+          <p class="text-2xl">JavaScript</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/python.svg" alt="">
+          <p class="text-2xl">Python</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/java.svg" alt="">
+          <p class="text-2xl">Java</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/markdown.svg" alt="">
+          <p class="text-2xl">Markdown</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/typescript.svg" alt="">
+          <p class="text-2xl">TypeScript</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/cpp.svg" alt="">
+          <p class="text-2xl">C/C++</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/json.svg" class="h-[40px]" alt="">
+          <p class="text-2xl">JSON</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/powershell.svg" alt="">
+          <p class="text-2xl">PowerShell</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/html.svg" alt="">
+          <p class="text-2xl">HTML/CSS</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/csharp.svg" alt="">
+          <p class="text-2xl">C#</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/php.svg" alt="">
+          <p class="text-2xl">PHP</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/yaml.svg" alt="">
+          <p class="text-2xl">YAML</p>
+        </div>
+      </div>
+      <a class="text-blue hover:underline xl:text-2xl xl:mx-[37%] mx-4 md:text-2xl md:mx-[16%] lg:mx-[25%]" href="#">and many more languages on the Marketplace...</a><br>
+      <button class="bg-blue text-white py-4 px-10 xl:py-6 mx-20 xl:px-12 xl:mx-[43%] mt-10 font-semibold xl:text-2xl md:text-2xl md:mx-[34%] lg:mx-[37%]">Get Started Now</button>
+    </div>
+    <!-- mac, window, linux -->
+    <div class="xl:flex xl:my-28 lg:flex my-20 xl:mx-[14%] md:grid md:grid-cols-2">
+      <div class="xl:mr-24 md:mt-10 xl:mt-0">
+        <img src="./assets/windowsIcon.png" class="mb-6 xl:ml-16 ml-28 lg:ml-24" alt="">
+        <div class="bg-blue flex xl:mx-0 mx-12">
+          <img src="./assets/download-icon.jpg" class="py-4 xl:pl-14 pl-10 xl:pl-0 xl:ml-6" alt="">
+          <button class="text-white font-semibold text-lg xl:text-2xl lg:text-sm xl:py-4 ml-6 pr-16 py-2">Windows<br><span class="font-normal text-sm lg:text-xs xl:text-lg">Windows 8, 10, 11</span> </button>
+        </div>
+        <div class="flex mt-6">
+          <p class="text-xl text-textColor font-semibold mr-4 text-center ml-10 xl:ml-0 lg:text-sm xl:text-xl">User Installer	<br>
+               System Installer	<br>
+               .zip</p>
+          <div>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*86</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">Arm64</button><br>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*86</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">Arm64</button><br>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">*86</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 lg:mt-1 lg:text-xs xl:text-lg">Arm64</button>
+          </div>
+        </div>
+      </div>
+      <div class="xl:mr-24 mt-10 xl:mt-0">
+        <img src="./assets/Capture.JPG" class="xl:ml-44 mb-8 ml-32" alt="">
+        <div class="flex mb-6">
+        <div class="flex bg-blue mr-1 ml-6">
+          <img src="./assets/download-icon.jpg" class="py-4 xl:pl-12 xl:pr-4 px-2" alt="">
+          <button class="text-white font-semibold text-lg lg:text-sm xl:text-2xl xl:py-4 xl:pr-16 pr-2 py-2">.deb<br> <span class="font-normal text-sm xl:text-lg">Debian, Ubuntu</span> </button>
+        </div>
+        <div class="flex bg-blue">
+          <img src="./assets/download-icon.jpg" class="py-4 xl:pl-12 xl:pr-4 px-2" alt="">
+          <button class="text-white font-semibold text-lg lg:text-xs xl:text-2xl xl:py-4 xl:pr-10 pr-2 py-2">.rpm <br> <span class="font-normal text-sm">Red Hat, Feroda, SUSE</span></button>
+        </div>
+        </div>
+        <div class="flex ml-20">
+          <p class="text-xl text-textColor font-semibold mr-4 lg:text-sm xl:text-xl">.deb	<br>
+            .rpm	<br>
+            .tar.gz<br>
+            Snap</p>
+          <div class="grid grid-cols-4">
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm32</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm64</button><br>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm32</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm64</button><br>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">*64</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm32</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Arm64</button><br>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-2 mr-1 lg:text-xs mt-1 xl:text-lg">Snap Store</button>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 xl:mt-0">
+        <img src="./assets/appleicon.jpg" class="xl:ml-20 mb-6 ml-32 lg:ml-20" alt="">
+        <div class="flex bg-blue mb-6 mx-16 lg:mx-10">
+          <img src="./assets/download-icon.jpg" class="xl:pl-16 my-4 ml-8 mr-2 xl:mx-0" alt="">
+          <button class="text-white font-semibold xl:text-2xl text-lg lg:text-sm xl:py-4 xl:pl-8 py-2 ml-4">Macs<br><span class="font-normal text-sm lg:text-xs xl:text-lg">MacOS 10.11+</span> </button><br>
+        </div>  
+        <div class="flex">
+          <p class="text-xl text-textColor font-semibold mr-4 ml-6 lg:text-xs xl:text-xl">Zip.</p>
+          <div>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-1 mr-1 lg:text-xs xl:text-lg">Universal</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-1 mr-1 lg:text-xs xl:text-lg">Intel Chip</button>
+            <button class="bg-blue text-white px-1 py-1 rounded mt-1 mr-1 lg:text-xs xl:text-lg">Apple silicon</button>
+          </div>
+        </div>
+    </div>
+  </div>  
+    <!-- second last part -->
+    <div class="bg-slate-100 py-16">
+      <div class="xl:flex lg:flex">
+      <div class="xl:mr-60 xl:ml-[25%] lg:ml-32 lg:mr-40">
+        <p class="xl:text-3xl text-lg text-center">Want new features sooner?</p>
+        <p class="xl:text-2xl text-md mt-4 text-center">Get the <span class="text-blue hover:underline">Insiders build</span> instead.</p>
+      </div>
+      <div class="mt-32 xl:mt-0 lg:mt-0">
+        <p class="xl:text-3xl text-lg text-center">Use <span class="text-blue hover:underline">vscode.dev</span> for quick edits online!</p>
+        <p class="xl:text-2xl text-md mt-4 text-center">GitHub, Azure Repos, and local files.</p>
+      </div>
+      </div>
+      <p class="mt-20 text-center leading-4 text-textColor leading-10 xl:text-lg text-md mx-14 xl:mx-96 xl:leading-loose"><span class="xl:text-lg text-textColor md:leading-loose">LICENSE AND PRIVACY TERMS</span> <br>By downloading and using Visual Studio Code, you agree to the <span class="text-blue hover:underline">license terms</span> and <span class="text-blue hover:underline">privacy statement</span>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <span class="text-blue hover:underline">How to Disable Crash Reporting</span> to learn how to disable it.</p>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-lgrey xl:flex py-10 lg:flex">
+      <div class="flex xl:ml-60 lg:mt-10">
+        <p class="text-white xl:text-lg xl:mr-8 md:ml-20 lg:ml-8 lg:text-xs lg:mr-3 invisible md:visible">Hello from Seattle.</p>
+        <p class="text-white xl:text-lg xl:mr-8 ml-6 lg:text-xs lg:mr-3 md:mr-8">Follow @code</p>
+        <div class=" flex rounded-lg mr-2 lg:mr-1 bg-white h-8 py-1 px-3 lg:px-1">
+          <svg class="h-6 mr-2 lg:mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+          <button class="">Star</button>
+        </div>
+        <button class="bg-white h-8 py-1 px-2 lg:px-1 rounded-lg mr-16 lg:mr-0">139895</button>
+      </div>
+      <div class="xl:flex xl:ml-96 md:flex lg:flex lg:ml-24">
+        <ul class="text-white flex xl:text-lg text-xs my-8 ml-10">
+          <li class="lg:mr-8 mr-4">Support</li>
+          <li class="lg:mr-8 mr-4">Privacy</li>
+          <li class="lg:mr-8 mr-4">Terms of Use</li>
+          <li class="lg:mr-8 mr-4">License</li>
+        </ul>
+        <div class="mx-28 lg:mx-0">
+          <img class="h-6 md:mt-8" src="./assets/microsoft-logo.png" class="h-10" alt="">
+          <p class="text-white xl:text-lg">@2022 Microsoft</p>
+        </div>
+      </div>
+    </div>
+  </body> 

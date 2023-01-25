@@ -1,0 +1,15 @@
+button{
+padding: 25px;
+border-radius: 25px;
+font-size: 25px;
+background-color: aliceblue;
+}
+button:hover{
+    padding: 35px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+.b1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+    
+}
+.b2{
+    height: 1000px;
+    width: 480px;
+    background-color: red;
+    
+}
