@@ -91,9 +91,12 @@ last.append(creat);
 ## output
 
 ![Task1](./secondAssignmentImage/task1Output.png)
+
+```
 const h3_background = document.querySelectorAll(".accordian h3"); 
 let bg_color = [...h3_background];
 bg_color.map((ele)=> ele.style.backgroundColor = "#DADAF8");
+```
 
 
 **Task 02**
@@ -103,6 +106,8 @@ bg_color.map((ele)=> ele.style.backgroundColor = "#DADAF8");
 ## output
 
 ![Task 02](./secondAssignmentImage/task2Output.png)
+
+```
 const wrapper = document.querySelector(".accordian-wrapper");
 const skills = document.createElement("div");
 skills.setAttribute("class","accordian");
@@ -116,7 +121,7 @@ skills_p.innerText = "I posses a very good command over the Full Stack Developme
 skills.appendChild(skills_p);
 
 wrapper.appendChild(skills);
-
+```
 
 # Assignment 03
 
@@ -127,6 +132,8 @@ wrapper.appendChild(skills);
 ## output
 
 ![Task 1](./thirdAssignmentImage/task1Output.png)
+
+
 ```
 <!-- left section -->
 document.querySelector(".mainLeftDetails :nth-child(1)").setAttribute("placeholder","FSJS 2.0");
