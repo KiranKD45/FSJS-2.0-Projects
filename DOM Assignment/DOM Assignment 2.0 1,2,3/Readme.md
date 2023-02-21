@@ -100,6 +100,9 @@ bg_color.map((ele)=> ele.style.backgroundColor = "#DADAF8");
 
 ### first i selected a main div and created a new element 'skills' with a class of accordian  also with the element 'p' and inserted text and append to main h3.
 
+## output
+
+![Task 02](./secondAssignmentImage/task2Output.png)
 const wrapper = document.querySelector(".accordian-wrapper");
 const skills = document.createElement("div");
 skills.setAttribute("class","accordian");
@@ -121,6 +124,9 @@ wrapper.appendChild(skills);
 
 ## In this task the all form elements has to be replaced by some text so i done it by using "set attribute" element and targeted by using class and with 'nth child'
 
+## output
+
+![Task 1](./thirdAssignmentImage/task1Output.png)
 ```
 <!-- left section -->
 document.querySelector(".mainLeftDetails :nth-child(1)").setAttribute("placeholder","FSJS 2.0");
