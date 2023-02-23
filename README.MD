@@ -32,3 +32,14 @@
 
   1. [Project 01](./Tailwind%20css%20project/)
 
+  **JAVASCRIPT ASSIGNEMENT**
+  1. [Q (1-30)](./JAVASCRIPT%20ASSIGNMENT/)
+
+  **DOM ASSIGNMENT**
+  1. [Dom 1,2,3](./DOM%20Assignment/DOM%20Assignment%202.0%201%2C2%2C3/Readme.md)
+  2. [Dom 4](./DOM%20Assignment/04_DOM%20Project/04_DOM%20Project/readme.md)
+  3. [Dom 5](./DOM%20Assignment/05_DOM%20Project/05_DOM%20Project/readme.md)
+  4. [Dom 6](./DOM%20Assignment/06_DOM%20Project/06_DOM%20Project/readme.md)
+  5. [Dom 7](./DOM%20Assignment/DOM%20P7/DOM%20P7/readme.md)
+  6. [Dom 8](./DOM%20Assignment/DOM%20P8/DOM%20P8/readme.md)
+  7. [Dom 9](./DOM%20Assignment/DOM%20P9/DOM%20P9/readme.md)
