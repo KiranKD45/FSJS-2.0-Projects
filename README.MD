@@ -43,3 +43,6 @@
   5. [Dom 7](./DOM%20Assignment/DOM%20P7/DOM%20P7/readme.md)
   6. [Dom 8](./DOM%20Assignment/DOM%20P8/DOM%20P8/readme.md)
   7. [Dom 9](./DOM%20Assignment/DOM%20P9/DOM%20P9/readme.md)
+
+  **Practices**
+  [Practices](./XYZ%20PRACTICE%202.0/)
