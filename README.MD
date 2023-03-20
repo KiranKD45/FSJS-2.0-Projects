@@ -45,4 +45,4 @@
   7. [Dom 9](./DOM%20Assignment/DOM%20P9/DOM%20P9/readme.md)
 
   **Practices**
-  [Practices](./XYZ%20PRACTICE%202.0/)
+  1.[Practices](./XYZ%20PRACTICE%202.0/)
