@@ -1,37 +1,13 @@
-import Todoitem from "./components/todoitem";
-import './App.css';
-import Addtodo from "./components/addtodo";
-import { useState } from "react";
+import React from 'react'
+import "./App.css"
+import { TodoWrapper } from './components/TodoWrapper'
 
-function App() {
-const [todo, setTodo] = useState([])
-
-
-
-  const getItem =(item)=>{
-    setTodo((prevState)=>{
-          return [...prevState, item]
-    })
-
-  }
-
-  const getCompleted =(id)=>{
-    setTodo((prevState)=>{
-      return prevState.filter((item, index)=>{
-        return index!== id;
-      })
-    })
-  }
-
+const App = () => {
   return (
-    <div>
-      <Addtodo item = {getItem}/>
-      {todo && todo.map((todo, index)=>{
-          <Todoitem id={index} item={todo} completed = {getCompleted}/>
-      })}
-      
+    <div className='App'>
+      <TodoWrapper/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
