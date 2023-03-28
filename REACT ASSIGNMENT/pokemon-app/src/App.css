@@ -1,8 +1,47 @@
 body{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .App{
   text-align: center;
+}
+
+.Heading{
+  padding-top: 20px;
+  background-color: #66e0ff;
+  height: 200px;
+
+  
+}
+
+.Heading h1{
+color:#fff;
+font-size: 60px;
+}
+
+.Heading input{
+  height:  40px;
+  border-radius: 10px;
+  border: 1px solid #0bc4f2;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.Heading button{
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #03cdff;
+  margin-left: 10px;
+  margin-top: -100px;
+}
+.Heading button:hover{
+  background-color: #66e0ff;
+  color: #fff;
+  font-size: medium;
+  border: 1px solid #1b1d1b;
+}
+
+.display-section{
+  color: #f19595;
 }
