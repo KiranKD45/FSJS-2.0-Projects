@@ -33,3 +33,18 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+.list-content{
+	list-style-type: none;
+	margin-left: 5px;
+	color: #9e46e1;
+	height: 150px;
+	width: 200px;
+	background-color: #fffd96;
+}
+
+.content{
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
