@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Header.css"
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Header() {
   return (
@@ -7,7 +9,8 @@ function Header() {
         <img className='header-logo' src='https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png'/>
 
         <div className='header-search'>
-         <input type="text" className='header-seacrh-input' />
+         <input type="text" className='header-search-input' />
+<SearchIcon className = "header-search-icon"/>
         </div>
         <div className='header-nav'>
             <div className='header-option'>
@@ -21,9 +24,10 @@ function Header() {
               <span className='option-1'>Your</span>
               <span className='option-2'>Prime</span>
             </div><div className='header-option'>
-              <span className='option-1'></span>
-              <span className='option-2'></span>
+              <ShoppingCartIcon className='header-shoppingcart-icon'/>
+             
             </div>
+            <span className='option-2 shoppingcount'>0</span>
         </div>
     </div>
   )
