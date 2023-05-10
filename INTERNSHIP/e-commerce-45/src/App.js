@@ -1,13 +1,14 @@
 import React from 'react';
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+// import Home from "./Home";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Header />
+      {/* <Router>
         {" "}
         <Header />
         <Routes>
@@ -28,7 +29,7 @@ function App() {
             }
           />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }
