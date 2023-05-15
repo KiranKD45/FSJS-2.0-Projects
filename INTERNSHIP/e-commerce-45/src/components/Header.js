@@ -3,10 +3,13 @@ import "./Header.css"
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 
 
 function Header() {
+const[{basket}, dispatch]= useStateValue();
+
   return (
     <div className='header'>
       <Link to="/">
@@ -35,7 +38,7 @@ function Header() {
               <ShoppingCartIcon className='header-shoppingcart-icon'/>
              
             </div>
-            <span className='option-2 shoppingcount'>0</span>
+            <span className='option-2 shoppingcount'>{basket?.length}</span>
             </Link>
         </div>
     </div>
