@@ -22,10 +22,12 @@ const[{basket}, dispatch]= useStateValue();
 <SearchIcon className = "header-search-icon"/>
         </div>
         <div className='header-nav'>
+          <Link to="/login">
             <div className='header-option'>
               <span className='option-1'>Hello,Guest</span>
               <span className='option-2'>Sign In</span>
             </div>
+            </Link>
             <div className='header-option'>
               <span className='option-1'>Returns</span>
               <span className='option-2'>& Orders</span>
