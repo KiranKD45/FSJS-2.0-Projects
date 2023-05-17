@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.login__logo {
+.login-logo {
     margin-top: 20px;
     margin-bottom: 20px;
     object-fit: contain;
@@ -15,7 +15,7 @@
     margin-left: auto;
   }
 
-.login__container {
+.login-container {
     width: 300px;
     height: fit-content;
     display: flex;
@@ -25,28 +25,28 @@
     padding: 20px;
 }
 
-.login__container > h1 {
+.login-container > h1 {
     font-weight: 500;
     margin-bottom: 20px;
   }
 
-.login__container > form > h5 {
+.login-container > form > h5 {
     margin-bottom: 5px;
 }
 
-.login__container > form > input {
+.login-container > form > input {
     height: 30px;
     margin-bottom: 10px;
     background-color: white;
     width: 98%;
   }
 
-.login__container > p {
+.login-container > p {
     margin-top: 15px;
     font-size: 12px;
 }
 
-.login__signInButton {
+.login-signInButton {
     background: #f0c14b;
     border-radius: 2px;
     width: 100%;
@@ -56,7 +56,7 @@
     border-color: #a88734 #9c7e31 #846a29;
   }
 
-  .login__registerButton {
+  .login-registerButton {
     border-radius: 2px;
     width: 100%;
     height: 30px;

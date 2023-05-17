@@ -14,6 +14,15 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    width: 200px;
+    font-weight: 550;
+    height: 25px;
+    border-radius: 10px;
+}
+.checkoutProduct-info > button:hover{
+    color: #090908;
+background-color: rgb(194, 235, 130);
+cursor: pointer;
 }
 
 .checkoutProduct-image {
